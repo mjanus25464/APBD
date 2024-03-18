@@ -11,8 +11,8 @@
     public static void ArytmeticAverage(int[] data)
     {
         int avr = 0;
-        foreach (int number in data)
-            avr += number;
+        foreach (int val in data)
+            avr += val;
         avr /= data.Length;
         Console.WriteLine("Average value: " + avr);
     }
