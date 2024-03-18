@@ -5,6 +5,7 @@
         int[] data = {34,12,35,62,32,12,65,15,97,46,74};
         ArytmeticAverage(data);
         FindMax(data);
+        Console.WriteLine("Drugi Commit");
     }
 
     public static void ArytmeticAverage(int[] data)
